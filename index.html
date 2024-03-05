@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Rana Sharjeel Ali</title>
 
   <!--
     - favicon
@@ -20,6 +20,21 @@
   <!--
     - google font link
   -->
+  <style>
+    .project-img {
+      height: 200px;
+      /* Set a fixed height for all project images */
+      overflow: hidden;
+      /* Ensure consistency by hiding overflow content */
+    }
+
+    .project-img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      /* Maintain aspect ratio while covering the container */
+    }
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -483,13 +498,17 @@
 
             <li class="clients-item">
               <a href="https://www.linkedin.com/company/software-alliance-io/?originalSubdomain=pk">
-                <img src="https://media.licdn.com/dms/image/C4D0BAQG94LqxdkiNgg/company-logo_200_200/0/1630455410421/software_alliance_dk_logo?e=2147483647&v=beta&t=o-Xqzsv7n6n_CPyluXmnK33e4JZC3XjWepcM7ERhvQQ" alt="client logo">
+                <img
+                  src="https://media.licdn.com/dms/image/C4D0BAQG94LqxdkiNgg/company-logo_200_200/0/1630455410421/software_alliance_dk_logo?e=2147483647&v=beta&t=o-Xqzsv7n6n_CPyluXmnK33e4JZC3XjWepcM7ERhvQQ"
+                  alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="https://www.linkedin.com/company/napollosoftwaredesign/mycompany/">
-                <img src="https://media.licdn.com/dms/image/C4D0BAQHmxB7GvNq__A/company-logo_200_200/0/1653678221779/napollogroup_logo?e=1717632000&v=beta&t=G_NXb0e_o9_FUC-Nfly6yfIANUus4EyQtpX3qq-DBUM" alt="client logo">
+                <img
+                  src="https://media.licdn.com/dms/image/C4D0BAQHmxB7GvNq__A/company-logo_200_200/0/1653678221779/napollogroup_logo?e=1717632000&v=beta&t=G_NXb0e_o9_FUC-Nfly6yfIANUus4EyQtpX3qq-DBUM"
+                  alt="client logo">
               </a>
             </li>
 
@@ -568,7 +587,7 @@
               <!-- <span>2006 — 2007</span> -->
 
               <p class="timeline-text">
-               Part time working on a Youtube channel where I teach Flutter and other Technologies
+                Part time working on a Youtube channel where I teach Flutter and other Technologies
               </p>
 
             </li>
@@ -597,7 +616,8 @@
               <span>2023 — Present</span>
 
               <p class="timeline-text">
-                Joined Napollo Software Design as Full Stack Mobile App Developer. Major working with Flutter and Laravel.
+                Joined Napollo Software Design as Full Stack Mobile App Developer. Major working with Flutter and
+                Laravel.
               </p>
 
             </li>
@@ -609,12 +629,12 @@
               <span>2022 — 2023</span>
 
               <p class="timeline-text">
-               Joined Software Alliance as a Flutter developer.
+                Joined Software Alliance as a Flutter developer.
               </p>
 
             </li>
 
-            
+
 
           </ol>
 
@@ -705,11 +725,6 @@
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
             <li class="filter-item">
               <button data-filter-btn>Applications</button>
             </li>
@@ -756,7 +771,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://beatbridgemusic.com/">
 
                 <figure class="project-img">
@@ -764,7 +779,9 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="https://cdn.dribbble.com/users/4467620/screenshots/18021156/media/052db472eb9cd9c51a0cf10efabf0320.png?resize=400x300&vertical=center" alt="finance" loading="lazy">
+                  <img
+                    src="https://cdn.dribbble.com/users/4467620/screenshots/18021156/media/052db472eb9cd9c51a0cf10efabf0320.png?resize=400x300&vertical=center"
+                    alt="finance" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Beat Bridge</h3>
@@ -774,7 +791,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://play.google.com/store/apps/details?id=com.thenpsocial.app&pli=1">
 
                 <figure class="project-img">
@@ -782,146 +799,48 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="https://images.squarespace-cdn.com/content/v1/62180f40ae8a302cff2eb94a/3082397c-7bc8-48c6-abdc-f63b4339610e/NP_Social_Logo_White+.jpg" alt="orizon" loading="lazy">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/62180f40ae8a302cff2eb94a/3082397c-7bc8-48c6-abdc-f63b4339610e/NP_Social_Logo_White+.jpg"
+                    alt="orizon" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">NP Social</h3>
-
                 <p class="project-category">Flutter Development</p>
-
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://play.google.com/store/apps/details?id=com.iamconnect&hl=en&gl=US">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="https://play-lh.googleusercontent.com/M3ALNvpY_thNblMMC_p1HoXoU43U3AerHlxNVeOjrr8PA8FvuIq7ob8TquR4Xa4ljdLz=w240-h480-rw" alt="Connect Social" loading="lazy">
+                  <img
+                    src="https://play-lh.googleusercontent.com/M3ALNvpY_thNblMMC_p1HoXoU43U3AerHlxNVeOjrr8PA8FvuIq7ob8TquR4Xa4ljdLz=w240-h480-rw"
+                    alt="Connect Social" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Connect Social</h3>
-
                 <p class="project-category">Flutter Developer</p>
-
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://billing.intrustpit.org/">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="https://billing.intrustpit.org/assets/img/intrustpit-Logo.png" alt="brawlhalla" loading="lazy">
+                  <img src="https://billing.intrustpit.org/assets/img/intrustpit-Logo.png" alt="brawlhalla"
+                    loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Intrus Pit</h3>
-
                 <p class="project-category">SAAS Project</p>
 
               </a>
             </li>
-
-            <!-- <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
+            <li>
+              <p style="text-align: center; color: white; margin-top: 80px;">and much More</p>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li> -->
-            <li><p style="text-align: center; color: white; margin-top: 80px;">and much More</p></li>
           </ul>
-
         </section>
-
       </article>
 
 
